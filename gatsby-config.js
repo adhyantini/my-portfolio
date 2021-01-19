@@ -2,10 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Adhyantini Bogawat`,
     author: `Adhyantini Bogawat`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Adhyantini's portfolio`,
     siteUrl: `https://gatsby-starter-blog-tailwindcss-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      linkedIn: `adhyantini-bogawat-a368b5155/`,
+      github: `adhyantini`,
     },
   },
   plugins: [
