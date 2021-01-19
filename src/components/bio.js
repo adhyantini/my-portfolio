@@ -44,15 +44,32 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Hey I am <strong>{author}</strong>. I live in Pune,India and work here
+        too!
         {` `}
+        <br />
+        Click here to follow me on
         <a
           className="text-blue-600"
-          href={`https://twitter.com/${social.twitter}`}
+          href={`https://www.linkedin.com/in/${social.linkedIn}`}
         >
-          You should follow him on Twitter
+          {" "}
+          LinkedIn
         </a>
+        ,
+        <a
+          className="text-blue-600"
+          href={`https://github.com/${social.github}`}
+        >
+          {" "}
+          GitHub
+        </a>
+        ,
+        <a className="text-blue-600" href={`https://medium.com/@adhyantini`}>
+          {" "}
+          Medium
+        </a>
+        .
       </p>
     </div>
   )
