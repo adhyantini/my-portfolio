@@ -5,8 +5,7 @@ module.exports = {
     description: `Adhyantini's portfolio`,
     siteUrl: `https://gatsby-starter-blog-tailwindcss-demo.netlify.com/`,
     social: {
-      linkedIn: `adhyantini-bogawat-a368b5155/`,
-      github: `adhyantini`,
+      twitter: `adhyantini-bogawat-a368b5155/`,
     },
   },
   plugins: [

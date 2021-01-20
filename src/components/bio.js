@@ -51,16 +51,13 @@ const Bio = () => {
         Click here to follow me on
         <a
           className="text-blue-600"
-          href={`https://www.linkedin.com/in/${social.linkedIn}`}
+          href={`https://www.linkedin.com/in/${social.twitter}`}
         >
           {" "}
           LinkedIn
         </a>
         ,
-        <a
-          className="text-blue-600"
-          href={`https://github.com/${social.github}`}
-        >
+        <a className="text-blue-600" href={`https://github.com/adhyantini`}>
           {" "}
           GitHub
         </a>
